@@ -1,0 +1,15 @@
+{
+  "name": "@nara/api",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".":         { "types": "./src/index.ts",   "default": "./src/index.ts" },
+    "./opnstd":  { "types": "./src/opnstd.ts",  "default": "./src/opnstd.ts" },
+    "./prespec": { "types": "./src/prespec.ts", "default": "./src/prespec.ts" },
+    "./bidpublic": { "types": "./src/bidpublic.ts", "default": "./src/bidpublic.ts" },
+    "./types":   { "types": "./src/types.ts",   "default": "./src/types.ts" }
+  },
+  "scripts": { "typecheck": "tsc --noEmit -p tsconfig.json", "test": "vitest run" },
+  "devDependencies": { "@types/node": "^24.13.3", "typescript": "~6.0.2", "vitest": "^4.1.11" }
+}

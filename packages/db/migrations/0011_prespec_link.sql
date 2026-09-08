@@ -1,0 +1,2 @@
+ALTER TABLE "notices" ADD COLUMN "prespec_linked_at" timestamp with time zone;--> statement-breakpoint
+CREATE INDEX "notices_prespec_no_idx" ON "notices" USING btree ("prespec_no") WHERE "notices"."prespec_no" is not null;

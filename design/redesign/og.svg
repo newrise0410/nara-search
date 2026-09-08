@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#F7F6F3"/>
+  <rect x="64" y="64" width="34" height="34" rx="8" fill="#111111"/>
+  <circle cx="79.5" cy="79.5" r="6.5" fill="none" stroke="#FFFFFF" stroke-width="2.4"/>
+  <line x1="85" y1="85" x2="90" y2="90" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"/>
+  <text x="112" y="88" font-family="IBM Plex Sans KR, Apple SD Gothic Neo, Helvetica Neue, sans-serif" font-size="22" font-weight="700" letter-spacing="1" fill="#111111">NARA SEARCH</text>
+  <text x="64" y="240" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="66" font-weight="700" letter-spacing="-2" fill="#111111">나라장터 공고·낙찰·계약을</text>
+  <text x="64" y="322" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="66" font-weight="700" letter-spacing="-2" fill="#111111">내 분야 기준으로 검색합니다</text>
+  <text x="64" y="386" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="26" fill="#787774">매일 새벽 수집 · 도메인 프로필 자동 분류 · 투찰업체와 낙찰률 · 키워드 알림</text>
+  <line x1="64" y1="452" x2="1136" y2="452" stroke="#EAEAEA" stroke-width="2"/>
+  <g font-family="Menlo, IBM Plex Mono, monospace" font-size="40" font-weight="500" fill="#111111">
+    <text x="64" y="520">112,183</text>
+    <text x="368" y="520">1,588</text>
+    <text x="640" y="520">4</text>
+    <text x="880" y="520">03:00</text>
+  </g>
+  <g font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="20" fill="#787774">
+    <text x="64" y="556">하루 투찰 행 수집</text>
+    <text x="368" y="556">하루 신규 공고</text>
+    <text x="640" y="556">데이터 소스</text>
+    <text x="880" y="556">매일 갱신</text>
+  </g>
+</svg>

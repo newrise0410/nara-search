@@ -1,0 +1,16 @@
+{
+  "name": "nara-search",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.22.0",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test",
+    "build": "pnpm --filter web build",
+    "lint": "pnpm --filter web lint",
+    "db:generate": "pnpm --filter @nara/db generate",
+    "db:migrate": "pnpm --filter worker migrate"
+  }
+}

@@ -1,0 +1,1 @@
+ALTER TABLE "ingest_jobs" ADD COLUMN "deferrals" integer DEFAULT 0 NOT NULL;

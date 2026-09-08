@@ -1,0 +1,1 @@
+ALTER TABLE "awards" ADD COLUMN "bidder_summary" jsonb;

@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap">
+  <style>
+    body { margin: 0; font-family: "Noto Sans KR", "Apple SD Gothic Neo", system-ui, sans-serif; color: #f2f2f2; background: #0b0b0d; }
+    a { color: #ff6b9d; } a:hover { color: #ff8db3; }
+    .num { font-variant-numeric: tabular-nums; letter-spacing: -0.01em; }
+  </style>
+</helmet>
+<div style="width: 1440px; height: 900px; display: flex; flex-direction: column; background: #0b0b0d; overflow: hidden; position: relative;">
+  <div style="position: absolute; top: -220px; right: -160px; width: 640px; height: 640px; border-radius: 50%; background: radial-gradient(circle, rgba(224,69,123,0.22) 0%, rgba(224,69,123,0) 62%);"></div>
+
+  <!-- Top nav -->
+  <div style="display: flex; align-items: center; gap: 28px; padding: 18px 40px; border-bottom: 1px solid #1f1f24; position: relative;">
+    <div style="display: flex; align-items: center; gap: 10px;"><div style="width: 30px; height: 30px; border-radius: 9px; background: #e0457b;"></div><div style="font-weight: 900; font-size: 15px; letter-spacing: 0.06em;">NARA SEARCH</div></div>
+    <div style="display: flex; align-items: center; gap: 4px; font-size: 14px;">
+      <div style="padding: 8px 14px; border-radius: 999px; color: #ffffff; background: #1c1c20; font-weight: 700;">검색</div>
+      <div style="padding: 8px 14px; border-radius: 999px; color: #9a9aa3;">관심 키워드</div>
+      <div style="padding: 8px 14px; border-radius: 999px; color: #9a9aa3;">경쟁사</div>
+      <div style="padding: 8px 14px; border-radius: 999px; color: #9a9aa3;">프로필</div>
+      <div style="padding: 8px 14px; border-radius: 999px; color: #9a9aa3;">설정</div>
+    </div>
+    <div style="flex-grow: 1;"></div>
+    <div style="display: flex; align-items: center; gap: 8px; padding: 6px 12px; border-radius: 999px; border: 1px solid #2a2a30; font-size: 12px; color: #9a9aa3;"><span style="width: 7px; height: 7px; border-radius: 50%; background: #e0457b;"></span>데이터 2026-08-25 · 03:00 갱신</div>
+  </div>
+
+  <!-- Hero search -->
+  <div style="display: flex; flex-direction: column; gap: 18px; padding: 44px 40px 28px 40px; position: relative;">
+    <div style="display: flex; flex-direction: column; gap: 8px;">
+      <div style="font-size: 34px; font-weight: 900; letter-spacing: -0.03em; line-height: 1.15;">낙찰결과에서 <span style="color: #e0457b;">시설</span></div>
+      <div style="font-size: 14px; color: #9a9aa3;">2026-08-25 개찰 · 전체 업무구분 · 시설 사업 프로필 적용</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 12px; max-width: 980px;">
+      <div style="flex-grow: 1; display: flex; align-items: center; gap: 12px; height: 56px; padding: 0 20px; border-radius: 16px; background: #141416; border: 1px solid #2a2a30; font-size: 16px;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#9a9aa3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+        <span style="flex-grow: 1;">시설</span>
+        <span style="padding: 4px 10px; border-radius: 8px; background: #1c1c20; font-size: 12px; color: #9a9aa3;">낙찰결과 ▾</span>
+        <span style="padding: 4px 10px; border-radius: 8px; background: #1c1c20; font-size: 12px; color: #9a9aa3;">1일 ▾</span>
+      </div>
+      <div style="display: flex; align-items: center; height: 56px; padding: 0 28px; border-radius: 16px; background: #e0457b; color: #ffffff; font-size: 15px; font-weight: 700;">조회하기</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px; font-size: 13px; color: #9a9aa3;"><span>추천</span><span style="padding: 5px 12px; border-radius: 999px; background: #141416; border: 1px solid #2a2a30; color: #f2f2f2;">전산장비</span><span style="padding: 5px 12px; border-radius: 999px; background: #141416; border: 1px solid #2a2a30; color: #f2f2f2;">전산장비</span><span style="padding: 5px 12px; border-radius: 999px; background: #141416; border: 1px solid #2a2a30; color: #f2f2f2;">ERP</span><span style="padding: 5px 12px; border-radius: 999px; background: #141416; border: 1px solid #2a2a30; color: #f2f2f2;">유지보수</span></div>
+  </div>
+
+  <!-- Body: rail + cards -->
+  <div style="display: flex; gap: 24px; padding: 0 40px 40px 40px; position: relative;">
+    <aside style="width: 240px; display: flex; flex-direction: column; gap: 18px; flex-shrink: 0;">
+      <div style="display: flex; flex-direction: column; gap: 10px; padding: 18px; border-radius: 16px; background: #141416; border: 1px solid #1f1f24;">
+        <div style="font-size: 12px; color: #9a9aa3; font-weight: 700; letter-spacing: 0.06em;">요약</div>
+        <div style="display: flex; justify-content: space-between; font-size: 14px;"><span style="color: #9a9aa3;">결과</span><span class="num" style="font-weight: 700;">4건</span></div>
+        <div style="display: flex; justify-content: space-between; font-size: 14px;"><span style="color: #9a9aa3;">추정가격 합계</span><span class="num" style="font-weight: 700;">3.9억</span></div>
+        <div style="display: flex; justify-content: space-between; font-size: 14px;"><span style="color: #9a9aa3;">평균 낙찰률</span><span class="num" style="font-weight: 700; color: #ff6b9d;">88.15%</span></div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 10px; padding: 18px; border-radius: 16px; background: #141416; border: 1px solid #1f1f24;">
+        <div style="font-size: 12px; color: #9a9aa3; font-weight: 700; letter-spacing: 0.06em;">분류</div>
+        <div style="display: flex; justify-content: space-between; align-items: center; font-size: 14px;"><span style="display: flex; align-items: center; gap: 8px;"><span style="width: 8px; height: 8px; border-radius: 2px; background: #22c55e;"></span>시설 점검</span><span class="num" style="color: #9a9aa3;">2</span></div>
+        <div style="display: flex; justify-content: space-between; align-items: center; font-size: 14px;"><span style="display: flex; align-items: center; gap: 8px;"><span style="width: 8px; height: 8px; border-radius: 2px; background: #f59e0b;"></span>유지보수</span><span class="num" style="color: #9a9aa3;">1</span></div>
+        <div style="display: flex; justify-content: space-between; align-items: center; font-size: 14px;"><span style="display: flex; align-items: center; gap: 8px;"><span style="width: 8px; height: 8px; border-radius: 2px; background: #3f3f46;"></span>미분류</span><span class="num" style="color: #9a9aa3;">1</span></div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 8px; padding: 18px; border-radius: 16px; background: #141416; border: 1px solid #1f1f24; font-size: 13px; color: #9a9aa3;">
+        <div style="font-size: 12px; font-weight: 700; letter-spacing: 0.06em;">내보내기</div>
+        <div style="display: flex; gap: 8px;"><span style="padding: 6px 12px; border-radius: 8px; background: #1c1c20; color: #f2f2f2;">CSV</span><span style="padding: 6px 12px; border-radius: 8px; background: #1c1c20; color: #f2f2f2;">복사</span></div>
+      </div>
+    </aside>
+
+    <div style="flex-grow: 1; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; align-content: start;">
+      <div style="display: flex; flex-direction: column; gap: 12px; padding: 20px; border-radius: 18px; background: #141416; border: 1px solid #1f1f24;">
+        <div style="display: flex; align-items: center; gap: 8px;"><span style="padding: 3px 8px; border-radius: 6px; background: #3a1020; color: #ff6b9d; font-size: 11px; font-weight: 700;">낙찰</span><span style="padding: 3px 8px; border-radius: 6px; background: #052e16; color: #4ade80; font-size: 11px; font-weight: 700;">시설 점검</span><div style="flex-grow: 1;"></div><span class="num" style="font-size: 12px; color: #9a9aa3;">R26BK01681323</span></div>
+        <div style="font-size: 17px; font-weight: 700; letter-spacing: -0.01em; line-height: 1.35;">정보시스템 성능시험 지원</div>
+        <div style="font-size: 13px; color: #9a9aa3;">공공기관 · 용역 · 규격가격동시입찰</div>
+        <div style="display: flex; align-items: flex-end; gap: 16px; margin-top: 4px;"><div style="display: flex; flex-direction: column; gap: 2px;"><span style="font-size: 11px; color: #9a9aa3;">추정가격</span><span class="num" style="font-size: 20px; font-weight: 700;">49,000,000원</span></div><div style="flex-grow: 1;"></div><span style="font-size: 12px; color: #9a9aa3;">낙찰자 미정</span></div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 12px; padding: 20px; border-radius: 18px; background: #141416; border: 1px solid #1f1f24;">
+        <div style="display: flex; align-items: center; gap: 8px;"><span style="padding: 3px 8px; border-radius: 6px; background: #3a1020; color: #ff6b9d; font-size: 11px; font-weight: 700;">낙찰</span><span style="padding: 3px 8px; border-radius: 6px; background: #1c1c20; color: #9a9aa3; font-size: 11px; font-weight: 700;">미분류</span><div style="flex-grow: 1;"></div><span class="num" style="font-size: 12px; color: #9a9aa3;">R26BK01683068</span></div>
+        <div style="font-size: 17px; font-weight: 700; letter-spacing: -0.01em; line-height: 1.35;">2026년 지역문화축제 운영 용역</div>
+        <div style="font-size: 13px; color: #9a9aa3;">(주)경상일보 · 용역 · 협상에의한계약</div>
+        <div style="display: flex; align-items: flex-end; gap: 16px; margin-top: 4px;"><div style="display: flex; flex-direction: column; gap: 2px;"><span style="font-size: 11px; color: #9a9aa3;">추정가격</span><span class="num" style="font-size: 20px; font-weight: 700;">220,000,000원</span></div><div style="flex-grow: 1;"></div><span style="font-size: 12px; color: #9a9aa3;">낙찰자 미정</span></div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 12px; padding: 20px; border-radius: 18px; background: #141416; border: 1px solid #1f1f24;">
+        <div style="display: flex; align-items: center; gap: 8px;"><span style="padding: 3px 8px; border-radius: 6px; background: #3a1020; color: #ff6b9d; font-size: 11px; font-weight: 700;">낙찰</span><span style="padding: 3px 8px; border-radius: 6px; background: #052e16; color: #4ade80; font-size: 11px; font-weight: 700;">시설 점검</span><div style="flex-grow: 1;"></div><span class="num" style="font-size: 12px; color: #9a9aa3;">R26BK01684176</span></div>
+        <div style="font-size: 17px; font-weight: 700; letter-spacing: -0.01em; line-height: 1.35;">2026 사통팔달 어울림 한마당 피날레 시설 아트쇼 운영 용역(협상)</div>
+        <div style="font-size: 13px; color: #9a9aa3;">경기도 수원시 팔달구 · 용역 · 협상에의한계약</div>
+        <div style="display: flex; align-items: flex-end; gap: 16px; margin-top: 4px;"><div style="display: flex; flex-direction: column; gap: 2px;"><span style="font-size: 11px; color: #9a9aa3;">추정가격</span><span class="num" style="font-size: 20px; font-weight: 700;">59,090,909원</span></div><div style="flex-grow: 1;"></div><span style="font-size: 12px; color: #9a9aa3;">낙찰자 미정</span></div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 12px; padding: 20px; border-radius: 18px; background: #141416; border: 1px solid #e0457b; box-shadow: 0 0 0 4px rgba(224,69,123,0.12);">
+        <div style="display: flex; align-items: center; gap: 8px;"><span style="padding: 3px 8px; border-radius: 6px; background: #3a1020; color: #ff6b9d; font-size: 11px; font-weight: 700;">낙찰</span><span style="padding: 3px 8px; border-radius: 6px; background: #431407; color: #fdba74; font-size: 11px; font-weight: 700;">유지보수</span><div style="flex-grow: 1;"></div><span class="num" style="font-size: 12px; color: #9a9aa3;">R26BK01688825</span></div>
+        <div style="font-size: 17px; font-weight: 700; letter-spacing: -0.01em; line-height: 1.35;">2026년 공공시설 안전점검 용역</div>
+        <div style="font-size: 13px; color: #9a9aa3;">경상북도 경주시 · 용역 · 소액수의견적 · 낙찰 사인(SAin)</div>
+        <div style="display: flex; align-items: flex-end; gap: 16px; margin-top: 4px;"><div style="display: flex; flex-direction: column; gap: 2px;"><span style="font-size: 11px; color: #9a9aa3;">낙찰금액</span><span class="num" style="font-size: 20px; font-weight: 700;">62,500,000원</span></div><div style="display: flex; flex-direction: column; gap: 2px;"><span style="font-size: 11px; color: #9a9aa3;">낙찰률</span><span class="num" style="font-size: 20px; font-weight: 700; color: #ff6b9d;">88.15%</span></div><div style="flex-grow: 1;"></div><span style="padding: 8px 12px; border-radius: 10px; background: #1c1c20; font-size: 12px; font-weight: 700;">낙찰 상세</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

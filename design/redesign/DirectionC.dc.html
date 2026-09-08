@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Noto+Sans+KR:wght@400;500;700&display=swap">
+  <style>
+    body { margin: 0; font-family: "Noto Sans KR", "Apple SD Gothic Neo", system-ui, sans-serif; color: #1f2a37; background: #fbf8f3; }
+    a { color: #0f766e; } a:hover { color: #115e59; }
+    .display { font-family: "Gowun Dodum", "Noto Sans KR", sans-serif; }
+    .num { font-variant-numeric: tabular-nums; }
+  </style>
+</helmet>
+<div style="width: 1440px; height: 900px; display: flex; flex-direction: column; background: #fbf8f3; overflow: hidden;">
+  <!-- Top nav -->
+  <div style="display: flex; align-items: center; gap: 12px; padding: 18px 48px;">
+    <div style="display: flex; align-items: center; gap: 10px;"><div style="width: 34px; height: 34px; border-radius: 12px; background: #14b8a6; display: flex; align-items: center; justify-content: center;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg></div><div class="display" style="font-size: 20px; color: #0f172a;">나라서치</div></div>
+    <div style="flex-grow: 1;"></div>
+    <div style="display: flex; align-items: center; gap: 4px; padding: 4px; border-radius: 999px; background: #ffffff; box-shadow: 0 1px 2px rgba(31,42,55,0.06), 0 4px 16px rgba(31,42,55,0.06); font-size: 14px;">
+      <div style="padding: 8px 16px; border-radius: 999px; background: #0f766e; color: #ffffff; font-weight: 700;">검색</div>
+      <div style="padding: 8px 16px; border-radius: 999px; color: #475569;">관심 키워드</div>
+      <div style="padding: 8px 16px; border-radius: 999px; color: #475569;">경쟁사</div>
+      <div style="padding: 8px 16px; border-radius: 999px; color: #475569;">내 프로필</div>
+    </div>
+    <div style="flex-grow: 1;"></div>
+    <div style="display: flex; align-items: center; gap: 10px;"><span style="font-size: 13px; color: #64748b;">오늘 새벽 3시에 업데이트됨</span><div style="width: 34px; height: 34px; border-radius: 50%; background: #fde68a;"></div></div>
+  </div>
+
+  <!-- Search hero -->
+  <div style="display: flex; flex-direction: column; align-items: center; gap: 16px; padding: 28px 48px 24px 48px;">
+    <div class="display" style="font-size: 36px; color: #0f172a; text-align: center; line-height: 1.2;">어떤 공고를 찾고 있나요?</div>
+    <div style="display: flex; align-items: center; gap: 12px; width: 820px; height: 60px; padding: 0 12px 0 22px; border-radius: 999px; background: #ffffff; box-shadow: 0 1px 2px rgba(31,42,55,0.06), 0 12px 32px rgba(31,42,55,0.10);">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+      <span style="flex-grow: 1; font-size: 16px;">시설</span>
+      <span style="padding: 6px 12px; border-radius: 999px; background: #f1f5f9; font-size: 13px; color: #475569;">낙찰결과 · 8월 25일</span>
+      <div style="display: flex; align-items: center; height: 44px; padding: 0 22px; border-radius: 999px; background: #0f766e; color: #ffffff; font-size: 15px; font-weight: 700;">찾기</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px; font-size: 13px; color: #64748b;"><span>자주 찾는 단어</span><span style="padding: 6px 12px; border-radius: 999px; background: #ffffff; border: 1px solid #e2e8f0; color: #1f2a37;">전산장비</span><span style="padding: 6px 12px; border-radius: 999px; background: #ffffff; border: 1px solid #e2e8f0; color: #1f2a37;">유지보수</span><span style="padding: 6px 12px; border-radius: 999px; background: #ffffff; border: 1px solid #e2e8f0; color: #1f2a37;">측량</span><span style="padding: 6px 12px; border-radius: 999px; background: #ffffff; border: 1px solid #e2e8f0; color: #1f2a37;">시설 교육</span></div>
+  </div>
+
+  <!-- Results -->
+  <div style="display: flex; gap: 24px; padding: 8px 48px 40px 48px;">
+    <div style="flex-grow: 1; display: flex; flex-direction: column; gap: 14px;">
+      <div style="display: flex; align-items: center; gap: 10px; padding: 0 4px;"><span style="font-size: 15px; font-weight: 700;">4건을 찾았어요</span><span style="font-size: 13px; color: #64748b;">추정가격 합계 3억 9천만원 · 평균 낙찰률 88.2%</span><div style="flex-grow: 1;"></div><span style="font-size: 13px; color: #64748b;">최신순 ▾</span></div>
+
+      <div style="display: flex; align-items: center; gap: 18px; padding: 18px 22px; border-radius: 20px; background: #ffffff; box-shadow: 0 1px 2px rgba(31,42,55,0.05), 0 6px 20px rgba(31,42,55,0.06);">
+        <div style="width: 48px; height: 48px; border-radius: 14px; background: #ccfbf1; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0f766e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21l6-6M14 4l6 6-9 9H5v-6l9-9z"></path></svg></div>
+        <div style="flex-grow: 1; display: flex; flex-direction: column; gap: 4px; min-width: 0;"><div style="font-size: 16px; font-weight: 700;">정보시스템 성능시험 지원</div><div style="font-size: 13px; color: #64748b;">공공기관 · 용역 · 8월 25일 개찰</div></div>
+        <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 2px;"><span class="num" style="font-size: 17px; font-weight: 700;">4,900만원</span><span style="font-size: 12px; color: #64748b;">추정가격</span></div>
+        <span style="padding: 6px 12px; border-radius: 999px; background: #ecfdf5; color: #047857; font-size: 12px; font-weight: 700;">시설 점검</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 18px; padding: 18px 22px; border-radius: 20px; background: #ffffff; box-shadow: 0 1px 2px rgba(31,42,55,0.05), 0 6px 20px rgba(31,42,55,0.06);">
+        <div style="width: 48px; height: 48px; border-radius: 14px; background: #fef3c7; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#b45309" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.8 4.6L18.5 9l-4.7 1.4L12 15l-1.8-4.6L5.5 9l4.7-1.4L12 3z"></path><path d="M5 19l1 2M19 19l-1 2M12 17v4"></path></svg></div>
+        <div style="flex-grow: 1; display: flex; flex-direction: column; gap: 4px; min-width: 0;"><div style="font-size: 16px; font-weight: 700;">2026년 지역문화축제 운영 용역</div><div style="font-size: 13px; color: #64748b;">(주)경상일보 · 용역 · 협상에 의한 계약</div></div>
+        <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 2px;"><span class="num" style="font-size: 17px; font-weight: 700;">2억 2,000만원</span><span style="font-size: 12px; color: #64748b;">추정가격</span></div>
+        <span style="padding: 6px 12px; border-radius: 999px; background: #f1f5f9; color: #475569; font-size: 12px; font-weight: 700;">미분류</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 18px; padding: 18px 22px; border-radius: 20px; background: #ffffff; box-shadow: 0 1px 2px rgba(31,42,55,0.05), 0 6px 20px rgba(31,42,55,0.06);">
+        <div style="width: 48px; height: 48px; border-radius: 14px; background: #ccfbf1; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0f766e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21l6-6M14 4l6 6-9 9H5v-6l9-9z"></path></svg></div>
+        <div style="flex-grow: 1; display: flex; flex-direction: column; gap: 4px; min-width: 0;"><div style="font-size: 16px; font-weight: 700;">2026 사통팔달 어울림 한마당 피날레 시설 아트쇼 운영 용역</div><div style="font-size: 13px; color: #64748b;">경기도 수원시 팔달구 · 용역 · 협상에 의한 계약</div></div>
+        <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 2px;"><span class="num" style="font-size: 17px; font-weight: 700;">5,909만원</span><span style="font-size: 12px; color: #64748b;">추정가격</span></div>
+        <span style="padding: 6px 12px; border-radius: 999px; background: #ecfdf5; color: #047857; font-size: 12px; font-weight: 700;">시설 점검</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 18px; padding: 18px 22px; border-radius: 20px; background: #ffffff; box-shadow: 0 0 0 2px #14b8a6, 0 6px 20px rgba(31,42,55,0.08);">
+        <div style="width: 48px; height: 48px; border-radius: 14px; background: #ffedd5; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#c2410c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s7-5.5 7-12a7 7 0 0 0-14 0c0 6.5 7 12 7 12z"></path><circle cx="12" cy="10" r="2.5"></circle></svg></div>
+        <div style="flex-grow: 1; display: flex; flex-direction: column; gap: 4px; min-width: 0;"><div style="font-size: 16px; font-weight: 700;">2026년 공공시설 안전점검 용역</div><div style="font-size: 13px; color: #64748b;">경상북도 경주시 · 용역 · 소액수의견적 · 사인(SAin) 낙찰</div></div>
+        <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 2px;"><span class="num" style="font-size: 17px; font-weight: 700; color: #0f766e;">6,250만원 낙찰</span><span class="num" style="font-size: 12px; color: #64748b;">낙찰률 88.15%</span></div>
+        <span style="padding: 6px 12px; border-radius: 999px; background: #fff7ed; color: #c2410c; font-size: 12px; font-weight: 700;">유지보수</span>
+      </div>
+    </div>
+
+    <aside style="width: 300px; display: flex; flex-direction: column; gap: 16px; flex-shrink: 0;">
+      <div style="display: flex; flex-direction: column; gap: 10px; padding: 20px; border-radius: 20px; background: #0f766e; color: #ffffff;">
+        <div class="display" style="font-size: 18px;">매일 아침 알려드릴까요?</div>
+        <div style="font-size: 13px; line-height: 1.5; color: #ccfbf1;">‘시설’을 관심 키워드로 등록하면 새 공고와 낙찰을 카카오톡·이메일로 보내드려요.</div>
+        <div style="display: flex; align-items: center; justify-content: center; height: 40px; border-radius: 999px; background: #ffffff; color: #0f766e; font-size: 14px; font-weight: 700;">관심 키워드로 등록</div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 12px; padding: 20px; border-radius: 20px; background: #ffffff; box-shadow: 0 1px 2px rgba(31,42,55,0.05), 0 6px 20px rgba(31,42,55,0.06);">
+        <div style="font-size: 14px; font-weight: 700;">이번 검색 요약</div>
+        <div style="display: flex; justify-content: space-between; font-size: 13px;"><span style="color: #64748b;">시설 점검</span><span class="num">2건</span></div>
+        <div style="display: flex; justify-content: space-between; font-size: 13px;"><span style="color: #64748b;">유지보수</span><span class="num">1건</span></div>
+        <div style="display: flex; justify-content: space-between; font-size: 13px;"><span style="color: #64748b;">미분류</span><span class="num">1건</span></div>
+        <div style="height: 1px; background: #f1f5f9;"></div>
+        <div style="display: flex; justify-content: space-between; font-size: 13px;"><span style="color: #64748b;">내보내기</span><span style="color: #0f766e; font-weight: 700;">CSV로 저장</span></div>
+      </div>
+    </aside>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

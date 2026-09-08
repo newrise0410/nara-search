@@ -1,0 +1,31 @@
+node_modules/
+dist/
+dist-ssr/
+*.local
+*.log
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.env
+.env.*
+!.env.example
+
+# Private development records and release staging
+.pnb/
+.release/
+GATES.md
+.vercel/
+*.tsbuildinfo
+*.pem
+*.key
+*.p12
+*.sqlite
+*.sqlite3
+*.dump
+
+# Local-only agent tools and automation
+/.agents/skills/
+/.claude/skills/
+/.github/workflows/
+/.pnb/
